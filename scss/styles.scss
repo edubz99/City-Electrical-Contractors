@@ -38,7 +38,7 @@ body {
   .section-heading {
     width: 90%;
     color: $textColor;
-    margin: 0 auto 1em auto;
+    margin: 0 auto 2em auto;
     &__title {
       font-weight: 200;
       display: inline-block;
@@ -46,6 +46,7 @@ body {
       border: 1px solid $mainOrange;
       border-radius: 5px;
       color: $mainOrange;
+      margin-bottom: 0.5em;
     }
     &__sub-title {
       font-weight: 300;
@@ -196,17 +197,41 @@ body {
       height: 300px;
     }
   }
+  .col-md-4 .col-sm-6 {
+    display: flex;
+  }
+
+  .contact-title {
+    margin-bottom: 1em;
+  }
 }
 
+@include media-breakpoint-up(xs) {
+  .col-md-4 .col-sm-6 {
+    display: flex;
+  }
+}
+@include media-breakpoint-up(sm) {
+  .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+}
 @include media-breakpoint-up(md) {
   .carousel-caption {
     bottom: 80px;
+  }
+  .col-md-4 {
+    display: flex;
   }
 }
 @include media-breakpoint-up(lg) {
   .carousel-caption {
     font-size: 1.2em;
     bottom: 120px;
+  }
+  .col-md-4 {
+    display: flex;
   }
 }
 @include media-breakpoint-up(xl) {

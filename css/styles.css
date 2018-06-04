@@ -6311,14 +6311,15 @@ body {
   .jumbotron .section-heading {
     width: 90%;
     color: #737980;
-    margin: 0 auto 1em auto; }
+    margin: 0 auto 2em auto; }
     .jumbotron .section-heading__title {
       font-weight: 200;
       display: inline-block;
       padding: 0 0.2em;
       border: 1px solid #ff6247;
       border-radius: 5px;
-      color: #ff6247; }
+      color: #ff6247;
+      margin-bottom: 0.5em; }
     .jumbotron .section-heading__sub-title {
       font-weight: 300;
       margin-bottom: 1em; }
@@ -6433,16 +6434,32 @@ body {
   .contact-us__map-container {
     padding: 1em; }
     .contact-us__map-container #map {
-      height: 300px; } }
+      height: 300px; }
+  .col-md-4 .col-sm-6 {
+    display: flex; }
+  .contact-title {
+    margin-bottom: 1em; } }
+
+.col-md-4 .col-sm-6 {
+  display: flex; }
+
+@media (min-width: 576px) {
+  .col-md-4 {
+    display: flex;
+    justify-content: center; } }
 
 @media (min-width: 768px) {
   .carousel-caption {
-    bottom: 80px; } }
+    bottom: 80px; }
+  .col-md-4 {
+    display: flex; } }
 
 @media (min-width: 992px) {
   .carousel-caption {
     font-size: 1.2em;
-    bottom: 120px; } }
+    bottom: 120px; }
+  .col-md-4 {
+    display: flex; } }
 
 @media (min-width: 1200px) {
   .carousel-caption {
