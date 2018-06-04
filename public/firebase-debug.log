@@ -1,0 +1,48 @@
+[debug] [2018-06-03T18:26:55.106Z] ----------------------------------------------------------------------
+[debug] [2018-06-03T18:26:55.109Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2018-06-03T18:26:55.110Z] CLI Version:   3.18.4
+[debug] [2018-06-03T18:26:55.110Z] Platform:      darwin
+[debug] [2018-06-03T18:26:55.110Z] Node Version:  v6.11.0
+[debug] [2018-06-03T18:26:55.110Z] Time:          Sun Jun 03 2018 19:26:55 GMT+0100 (BST)
+[debug] [2018-06-03T18:26:55.111Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-03T18:26:55.126Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-06-03T18:26:55.127Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ev_god/Desktop/bootstrap4/src
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-06-03T18:27:03.248Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-03T18:27:03.248Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/aN5uYSt1fmBuPHij7kJ62wug6hudyFvn9y6fv4KohxE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jun 03 2018 19:27:03 GMT+0100 (BST)
+[debug] [2018-06-03T18:27:03.544Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-03T18:27:03.566Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Sun Jun 03 2018 19:27:03 GMT+0100 (BST)
+[debug] [2018-06-03T18:27:04.684Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
